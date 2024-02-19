@@ -13,5 +13,5 @@
 
 #### Docker commands
 
-* Build image : `docker buildx build -t my-flask-app flask-app/` 
-* Run the docker image: `docker run -it -p 5005:5000 my-flask-app`
+* Build image : `docker buildx build -t my-flask-app hello-world-flask/`
+* Run the docker image: `docker run -e HELLO_NAME=Ananya -p 5005:5000 my-flask-app`
